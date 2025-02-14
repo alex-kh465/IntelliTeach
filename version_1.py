@@ -137,7 +137,7 @@ st.sidebar.header("Configuration")
 with st.sidebar:
     model = st.selectbox(
         "Select Model",
-        ["llama3-8b-8192", "llama3-13b", "llama3-30b"],
+        ["llama3-8b-8192", "mixtral-8x7b-32768", "llama-3.3-70b-versatile"],
         help="Choose the LLM for question generation.",
     )
     subject = st.text_input("Subject", help="Enter the subject name (e.g., Physics).")
